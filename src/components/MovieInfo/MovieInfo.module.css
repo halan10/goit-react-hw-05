@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 16px;
+}
+.description {
+  flex-direction: column;
+}
+.genresList {
+  list-style: none;
+  padding: 0;
+}
+.genresItem {
+  display: inline;
+  padding: 8px;
+}

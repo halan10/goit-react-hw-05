@@ -1,0 +1,7 @@
+.divider {
+  margin: 16px 0;
+  color: hsl(193, 100%, 28%);
+  background-color: hsl(193, 100%, 28%);
+  height: 2px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
