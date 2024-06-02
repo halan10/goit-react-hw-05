@@ -27,7 +27,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1>List of popular movies</h1>
+      <h1>List of the most popular movies today</h1>
       {error && <ErrorMessage />}
       {isLoading && <Loader />}
       {popularMovies.length > 0 && <MovieList movies={popularMovies} />}

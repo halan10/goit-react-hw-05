@@ -18,3 +18,37 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgb(77, 76, 76) 0%,
+    rgba(249, 211, 180, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    padding: 1rem 1.75rem;
+    width: 100%;
+  }
+
+  .search input {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+}

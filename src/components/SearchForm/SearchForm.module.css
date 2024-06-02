@@ -1,5 +1,6 @@
 .wrapper {
-  width: 30%;
+  width: 70%;
+  margin: 1rem auto 1rem;
 }
 .form {
   width: 100%;
@@ -11,7 +12,7 @@
   border-right: none;
   padding: 5px;
   height: 20px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 15px 0 0 15px;
   outline: none;
 }
 .searchButton {
@@ -22,6 +23,6 @@
   background: #525256;
   text-align: center;
   color: #fff;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 15px 15px 0;
   cursor: pointer;
 }

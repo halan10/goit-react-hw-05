@@ -40,7 +40,15 @@ export default function MoviesPage() {
 
   return (
     <>
-      <h1>MoviesPage</h1>
+      <h1>Movie Search: Find Your Favorite Films by Title!</h1>
+      <p>
+        Welcome to our film library! Here, you can search for movies by their
+        titles and enjoy a plethora of cinematic masterpieces from around the
+        world. Our website offers a wide range of films across various genres,
+        from the latest releases to classic gems. Simply enter the movie title
+        in the search field, and we`ll find it for you! Let movies become your
+        favorite pastime.
+      </p>
       <SearchForm values={query} onSubmit={handleChange} />
       {isLoading && <Loader />}
       {error && <ErrorMessage />}
